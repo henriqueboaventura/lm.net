@@ -104,6 +104,7 @@ body {
     color: $dark-blue;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    min-width: 884px;
 }
 
 .wrapper {
@@ -111,6 +112,7 @@ body {
     margin: 0px auto;
     position: relative;
     width: 884px;
+    min-width: 884px;
 }
 
 .menu {
@@ -211,7 +213,7 @@ section {
             background-color: #dadada;
             display: inline-block;
             height: 200px;
-            margin: 0px 19px 19px 0px;
+            margin: 0px 18px 18px 0px;
             width: 280px;
             vertical-align: top;
             &:nth-child(3n+3) {
